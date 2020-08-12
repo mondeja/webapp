@@ -1,0 +1,23 @@
+{
+  "name": "webapp",
+  "version": "0.0.1",
+  "description": "Álvaro Mondéjar Rubio's basic webapp scaffold",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --config webpack.config.js --watch",
+    "server": "python3 manage.py runserver",
+    "lint": "pre-commit run --all-files",
+    "version": "bump2version patch"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}

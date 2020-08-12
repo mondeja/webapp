@@ -1,0 +1,5 @@
+version: '0.0.1'
+name: webapp
+title: WebApp
+author: 'Álvaro Mondéjar Rubio'
+description: "Álvaro Mondéjar Rubio's basic webapp scaffold."
