@@ -12,8 +12,6 @@ class Root extends Component {
 
 
 document.addEventListener("DOMContentLoaded", () => {
-  console.log("YEA")
-
   let container = document.getElementById('app');
   let component = <Root/>;
   ReactDOM.render(component, container);
